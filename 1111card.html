@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+
+<head>
+
+	<title> 빼빼로데이 기념일 카드 </title>
+
+	<script type="text/javascript">
+			alert(' 새로운 메세지 1건이 도착했습니다! ');
+	 		alert(' 11월 11일은 빼빼로데이!! ');
+	 		alert(' I give random chocolate for you!!')
+	</script>
+
+	
+
+	<style>
+
+	
+
+	#choco {
+		width: 900px; 
+		height: 600px; 
+		margin: 0 auto;
+		background-image: url(images/main_image.jpg);
+		background-size: 100%
+		repeat : no-repeat;
+		}
+
+	  #num1 {width: 700px; height: 160px;}	
+	  #num2 {width: 600px; height: 300px;}	
+	  #num3 {width: 700px; height: 100px;}	
+
+	  #cd1 {width: 200px; height: 50px; margin-right: auto; margin-left: auto;}
+	  #cd2 {width: 20px; height: 10px; margin-right: 200px; margin-left: auto;}
+		
+	</style>
+
+</head>
+
+
+
+<body>
+
+	
+		<div id="choco" img src="images/main_image.jpg">
+
+			<div id="num1"><h1 id="cd1">  </h1></div>
+			<div id="num2">
+				<h1 id="cd2">  </h1>
+
+				<h1 id="cd2">
+					<img id = "img1" width=300px;>
+					<script type = "text/javascript">
+
+ 		r=Math.floor(Math.random()*7+1);
+	    if (r == 6)
+	    {
+	    	document.getElementById("img1").src = "images/chocolate1.jpg";
+	    }
+	    else if(r == 5)
+	    {
+	    	document.getElementById("img1").src = "images/chocolate2.jpg";
+	    }
+ 	    else if(r == 4)
+	    {
+	    	document.getElementById("img1").src = "images/chocolate3.jpg";
+	    }
+	    else if(r == 3)
+	    {
+	    	document.getElementById("img1").src = "images/chocolate4.jpg";
+	    }
+	    else if(r == 2)
+	    {
+	    	document.getElementById("img1").src = "images/chocolate5.jpg";
+	    }
+	    else if(r == 1)
+	    {
+	    	document.getElementById("img1").src = "images/chocolate6.jpg";
+	    }
+	    else
+	    {
+	    	document.getElementById("img1").src = "images/chocolate7.jpg";
+	    }
+	    // document.write(r);
+	</script>
+				</img></h1>
+			</div>
+			<div id="num3">
+				
+			</div>
+		</img> </h1>
+
+	</div>
+
+
+</body>
+</html>
